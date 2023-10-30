@@ -4,7 +4,85 @@
     box-sizing: border-box;
 }
 
-body{
-    width: 75%;
+.header{
+    width: 100%;
     margin:0 auto;
+}
+
+/* CLASSI COLORI */
+
+.aqua{
+    background-color: #ADD8E6;
+}
+
+.yellow{
+    background-color: #DAA520;
+}
+
+.blue{
+    background-color: #00008B;
+}
+
+.pink{
+    background-color: #EE82EE;
+}
+
+.lightblue{
+    background-color: #1E90FF;
+}
+
+.lightpink{
+    background-color: #FFC0CB;
+}
+
+.grey{
+    background-color: #D3D3D3;
+}
+
+.black{
+    background-color: #23272A;
+}
+
+.green{
+    background-color: #228B22;
+}
+
+/* HEADER */
+
+.header-top{
+    display: flex;
+    justify-content: center;
+    width:75%;
+    margin:0 auto;
+    padding:8px;
+}
+
+.header-bottom{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-bottom-container{
+    width: 50%;
+    min-height: 230px;
+    margin:30px;    
+}
+
+header > .header-top > *, header > .header-bottom > *{
+    border: 1px dashed black;
+    padding: 5px 10px;
+}
+
+.logo, .login{
+    width: 25%;
+}
+
+.login{
+    text-align: right;
+}
+
+.link{
+    width:50%;
+    text-align: center;
 }
