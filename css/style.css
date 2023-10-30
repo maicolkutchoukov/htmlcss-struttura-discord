@@ -136,7 +136,6 @@
     justify-content: center;
     border-bottom: 1px solid white;
     width: 100%;
-    border: 1px solid white;
     padding: 15px 0;
 }
 
@@ -161,7 +160,7 @@
 .footer-bottom{
     display: flex;
     justify-content: center;
-    margin: 25px 0;
+    padding: 25px 0;
 }
 
 .footer-bottom > div{
