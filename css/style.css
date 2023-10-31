@@ -119,8 +119,8 @@
     align-items: center;
 }
 
-section, header{
-    margin-bottom: 20px;
+section{
+    padding:20px 0;
 }
 
 .col1, .col2{
